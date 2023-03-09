@@ -1,41 +1,45 @@
-body {
-    width: 300px;
-    border: 20px;
-    box-sizing: border-box;
-    margin: 0 auto;
-    padding: 20px;
-    background: linear-gradient(#bd09b7,#6b4cf5);
-    background-color: white;
-    box-shadow: 5px, 5px,10px,15px,#333   
-}
-.inputContainer{
-    color: white
-    ;
-}
-h1{
-    color: white
-    ;
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
 }
 
-#Boton {
-    color: black
-    padding 5px, 15px 
+h4{
+width: 20px;
+font-size:x-large;
+margin-bottom: 20px;
+}
+
+.form-login{
+  width: 300px;
+  height: 350px;
+  background-image:linear-gradient(#bd09b7, #6b4cf5) ; 
+  padding: 20px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white; 
+  box-shadow: 3px 3px 5px 10px #570b52;
+}
+
+.controls {
+    width: 100%;
+    padding: 7px;
+}
+
+.check{
+    width: 100%;
+    padding: 10px; 
+    margin-left: 1px;
+}
+
+.boton{
+    width: 60%;
+    padding: 2px; 
+    margin-left: 90px;
+}
+
+
+
     
-}
-.inputContainer{
-    padding: 7px 100%
-}
-
-@media (max-width: 500px) {
-    box {
-        width: 100%;
-    }    
-}
-
-@media (min-width: 500px) {
-    box {
-        width: 300px;
-    }    
-}
-
-

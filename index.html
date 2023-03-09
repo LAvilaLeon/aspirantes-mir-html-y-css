@@ -2,60 +2,35 @@
 <html>
     <head>
     <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale]=1.0" >
         <title>Login</title>
         <link rel="stylesheet" href="styles.css">
     
   </head>
   <body>
-    <div class="signupFrm">
-        <form action="registro" method="post">
-            <h1 class="title">Login</h1>
-
-            <div class="inputContainer">
-            <fieldset>
-                <label>
-                    Email
-                    <input type="email" name="email" placeholder="tucorreo@tuempresa"/>
-                </label>
+    <section class="form-login">
+        <h4>Login</h4>
+        <label> Email
+        <input class="controls" type="email" name="email" placeholder="tucorreo@tuempresa"/>
+        </label>
+        <label> Password
+        <input class="controls" type="password" name="password" id="password" value="Incorrecto" size="8" />
+        </label>
+        <label> Género
+        <select class="controls" name="Género">
+            <option class="controls" value="" disabled selected>Selecciona un Género</option>
+            <option value="Hombre">Hombre</option>
+            <option value="Mujer">Mujer</option> 
+            <option value="Otro">Otro</option>
+        </select>
+        </label>
+            <input class= "check" type="checkbox" name="seleccion" value="Acepto términos" checked />
+            Acepto términos
+            <input class="boton" type="submit" value="Ingresar" />
             </fieldset>
             </div>
-
-            <div class="inputContainer">
-            <fieldset>
-                <label for="password">Clave</label>
-                <input type="password" name="password" id="password"
-                    value="Incorrecto" size="8" />
-            </fieldset>
-            </div>
-
-            <div class="inputContainer">
-            <fieldset>
-                <label>
-                Género
-                    <select name="Género">
-                     <option value="" disabled selected>Selecciona un Género</option>
-                     <option value="Hombre">Hombre</option>
-                     <option value="Mujer">Mujer</option> 
-                     <option value="Otro">Otro</option>
-                </label>
-            </fieldset>
-            </div>
-
-            <div class="inputContainer">
-            <fieldset>
-                <label>
-                 <input type="checkbox" name="seleccion" value="Acepta términos" checked />
-                 Acepta términos
-                </label>
-            </fieldset>
-            </div>
-
-            <fieldset>
-                <input id="Boton" type="submit" value="Ingresar" />
-            </fieldset>
-            </div>
-        </form>
-    </body>
+    </section>
+  </body>
 
 
 
