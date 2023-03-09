@@ -1,0 +1,41 @@
+body {
+    width: 300px;
+    border: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(#bd09b7,#6b4cf5);
+    background-color: white;
+    box-shadow: 5px, 5px,10px,15px,#333   
+}
+.inputContainer{
+    color: white
+    ;
+}
+h1{
+    color: white
+    ;
+}
+
+#Boton {
+    color: black
+    padding 5px, 15px 
+    
+}
+.inputContainer{
+    padding: 7px 100%
+}
+
+@media (max-width: 500px) {
+    box {
+        width: 100%;
+    }    
+}
+
+@media (min-width: 500px) {
+    box {
+        width: 300px;
+    }    
+}
+
+
